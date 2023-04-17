@@ -1,0 +1,24 @@
+1- leia o codigo com atenção, instale o noe_modules e  configura a conexão com o arquivo .db
+
+
+PRATICA 1
+
+- configurar a conexão do knex com o banco de dados 
+crie dentro da pasta src/database  o arquivo knex.ts
+referencie o material assincrono  (lmebre-se de editar o nome do arquivo do caminho para o arquivo .db)
+
+para garantir que esta tudo certo, crie um  endpoint que busca pelas bandas da tabela bands utilizando queries no formato raw
+
+PRATICA 2
+- crie um endpoint que insere uma nova bandana tabela bands
+- lembre-se de validar os dados na entrada para nao extressar a conexão com o banco de dados desnecessariamente
+
+PRATICA 3
+
+- implemente um endpoint de edição de bandas nas tabelas bands
+- lembre-se de referenciar o material assincrono, existe um exemp-lo de put nele
+
+    fixação
+
+Desenvolva endpoints de leitura, criação e edcição daa tabelas songs
+quando for testa-los , lembre-se de respeitar a relação entre song e bands
